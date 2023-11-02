@@ -1,0 +1,235 @@
+@media(max-width:1020px){
+    *{
+        font-size: 2rem;
+    }
+    .bg-color .content-4 .form-group button{
+        font-size: 2.5rem;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+
+    /* intro */
+    .bg-color{
+        height: max-content;
+    }
+    .bg-color .content-1{
+        padding: 5rem 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+    }
+    
+    .bg-color .content-1 .bg-color-content-1 {
+        width: 100%;
+    }
+    .bg-color .content-1 .bg-color-content-1 h1 {
+        font-size: 3.8rem;
+        padding-bottom: 3rem;
+        max-width: 100%;
+    }
+    .bg-color#intro .content-1{
+        min-height: 85vh;
+    }
+    .bg-color .content-1 img {
+        max-width: 700px;
+        width: auto;
+    }
+    .bg-color .content-4 .content-1 img {
+        max-width: 500px;
+        width: auto;
+    }
+    .grid-two{
+        grid-template-columns: repeat(2,48%);
+        column-gap: 4%;
+        margin-bottom: 20%;
+    }
+    .bg-color-white .content-2{
+        padding-bottom: 2rem;
+    }
+}
+
+@media(max-width:870px){
+    .grid-one{
+        display: block;
+    }
+    .grid-one nav{
+        padding-bottom: 2rem;
+    }
+}
+
+@media(max-width:800px){
+    main section{
+        padding-top: 7rem;
+    }
+    .bg-color .content-1{
+        padding: 0 0 4rem 0;
+    }
+    .bg-color#intro .content-1 img{
+        padding-top: 2rem;
+    }
+    .menu{
+        display: none;
+    }
+    .menu {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu nav{
+        height: 90%;
+        margin-top: 12.5%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu nav h1 a {
+        text-align: center;
+        padding: 0
+    }
+    .menu nav ul{
+        height: 75%;
+        justify-content: center;
+        display: block;
+    }   
+    .menu ul li a{
+        text-align: center;
+    }
+    .menu ul li a::after {
+        bottom: 1.2rem;
+        left: 20%;
+    }
+
+    .menu ul li a:hover::after {
+        width: 40%;
+        left: 30%;
+        z-index: 99;
+    }
+
+    #abreMenuCelular {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    #abreMenuCelular::after{
+        content: "≡";
+        color: white;
+        background-color: #0A1128;
+        padding: 0.5rem;
+        padding-top: 0.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 25%;
+        font-size: 3rem;
+        position: fixed;
+        line-height: 3rem;
+        z-index: 3;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+    }
+    #fechaMenuCelular {
+        display: none;
+    }
+    #fechaMenuCelular{
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: 0;
+    }
+    #fechaMenuCelular::after{
+        content: "x";
+        color: #0A1128;
+        padding: 0.5rem;
+        padding-top: 0.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 25%;
+        font-size: 3rem;
+        position: fixed;
+        line-height: 3rem;
+        z-index: 3;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+    }
+
+    .bg-color .content-4 .form-group textarea{
+        text-indent: 1px;
+    }
+    
+}
+
+
+
+@media(max-width:680px){
+    *{
+        font-size: 1.85rem;
+    }
+    .bg-color .content-4 .form-group button{
+        font-size: 2rem;
+    }
+
+    .grid-one h2{
+        font-size: 3rem;
+    }
+    .grid-one h2::before{
+        font-size: 5rem;
+    }
+    #white-1{
+        padding-bottom: 0!important;
+    }
+    .bg-color-white .content-1 h1 {
+        padding-bottom: 2rem
+    }
+    .bg-color-white .content-1 p {
+        padding-top: 3rem
+    }
+
+    .bg-color .content-4 .content-1 img {
+        width:0;
+    }
+
+    .grid-two{
+        display: block;
+        margin-bottom: 0;
+    }
+    .bg-color-white .content-2{
+        padding-bottom: 10%;
+    }
+    
+    .bg-color-white .content-2 .grid-two .gallery-img img{
+        padding-bottom: 15px;
+    }
+    .responsive-table{
+        overflow-x: scroll;
+    }
+    
+}
+
+@media(max-width:640px){
+    footer{
+        text-align: center;
+    }
+}
+@media(max-width:530px){
+    .bg-color-white .content-1 {
+        padding-bottom: 5rem;
+    }
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.responsive-table{
+    max-width: 60rem;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+.responsive-table table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-weight: 1rem;
+    width: 60rem;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+table td, table th {
+    border: 0.5px solid #ccc;
+    padding: 5px;
+
+}
+table th{
+    background-color: #ccc;
+}
+.responsive-table table caption{
+    padding-bottom: 2%;
+    font-size: 1rem;
+    text-align: left;
+
+}
+.responsive-table table caption em{
+    font-size: 1.8rem;
+
+}
+.td-duplo {
+    vertical-align: middle;
+}
