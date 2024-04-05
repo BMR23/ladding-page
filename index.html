@@ -249,12 +249,19 @@
       </div>
     </section>
     <div class="circulo">
+      <!-- <a class="back-to-top" href="#">➤</a> -->
       <a class="back-to-top" href="#">➤</a>
     </div>
 
   </main>
   <footer>
-    <p>Feito por <a href="https://github.com/BMR23">Breno Melo</a>.</p>
+    <!-- <p>Feito por <a href="https://github.com/BMR23">Breno Melo</a>.</p> -->
+    <p>Feito por 
+      <nav onclick="() => {
+        const body = document.getElementById('body');
+        body.scrollIntoView({ behavior: 'smooth' });
+      }">Breno Melo</nav>.
+    </p>
   </footer>
 </body>
 
