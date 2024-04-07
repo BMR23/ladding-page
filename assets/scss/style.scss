@@ -34,8 +34,8 @@ h3{
     font-size: 5rem;
 }
 section{
-    padding-top: 12rem;
-    min-height: min-content;
+    padding-top: 10rem;
+    min-height: 70rem;
     // min-height: 95vh;
     margin: auto auto;
 
@@ -62,7 +62,7 @@ section{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    height: 80vh;
+    height: 90vh;
     
     .bg-color-content-1 {
     width: 45%;
@@ -289,13 +289,17 @@ footer{
 
         a {
             text-decoration: none;
-            color: black;
+            color: blue;
             font-size: 1.6rem;
             position: relative;
         }
         a:hover{
             text-decoration: underline;
             color: black;
+        }
+        a:visited {
+            color: blue;
+            text-decoration: none;
         }
     }
 }

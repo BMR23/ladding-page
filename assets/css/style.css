@@ -147,9 +147,8 @@ h3 {
 }
 
 section {
-  padding-top: 12rem;
-  min-height: -moz-min-content;
-  min-height: min-content;
+  padding-top: 10rem;
+  min-height: 70rem;
   margin: auto auto;
 }
 section > div {
@@ -171,7 +170,7 @@ section > div {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  height: 80vh;
+  height: 90vh;
 }
 .bg-color .content-1 .bg-color-content-1 {
   width: 45%;
@@ -387,13 +386,17 @@ footer p {
 }
 footer p a {
   text-decoration: none;
-  color: black;
+  color: blue;
   font-size: 1.6rem;
   position: relative;
 }
 footer p a:hover {
   text-decoration: underline;
   color: black;
+}
+footer p a:visited {
+  color: blue;
+  text-decoration: none;
 }
 
 /* footer */
