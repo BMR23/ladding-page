@@ -214,7 +214,12 @@
           </div>
           <img id="imagem-2" src="assets/img/javascript.svg" alt="">
         </div>
-        <form action="https://formsubmit.co/brenomelo162@gmail.com" method="POST">
+
+        <form 
+          id="form"
+          action="https://formspree.io/f/xpzvoqlr"
+          method="POST"
+        >
           <div class="form-group">
             <label for="first-name">First name</label>
             <input type="text" name="first-name" id="first-name" placeholder="Your name" required>
@@ -231,6 +236,7 @@
             <label for="message">Message</label>
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message" required></textarea>
           </div>
+          <input type="hidden" name="_next" value="index.html">
           <div class="form-group">
             <button type="submit" id="mensagem">
               <div class="mensagem-1">Send message</div>
@@ -238,18 +244,10 @@
               <div class="concluido ocultar">Sent</div>
             </button>
           </div>
-          <input name="_formsubmit_id" type="text" style="display:none">
-          <input type="hidden" name="_subject" value="Origem: Ladding Page!">
-          <input type="text" name="_honey" style="display: none">
-          <input type="hidden" name="_template" value="table">
-          <!-- <input type="hidden" name="_captcha" value="false"> -->
-          <input type="hidden" name="_next" value="https://bmr23.github.io/ladding-page/index.html#contact">
-          <input type="hidden" name="_autoresponse" value="Successes">
         </form>
       </div>
     </section>
     <div class="circulo">
-      <!-- <a class="back-to-top" href="#">➤</a> -->
       <a class="back-to-top" href="#">➤</a>
     </div>
 
@@ -267,3 +265,4 @@
 
 </html>
 <script src="assets/js/script.js"></script>
+<!-- <script src="assets/js/formSubmit.js"></script> -->
