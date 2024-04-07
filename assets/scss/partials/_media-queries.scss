@@ -66,53 +66,66 @@
     }
 }
 
+@media (min-width: 800px) {
+    .menu {
+      display: block !important;
+    }
+  }
+
 @media(max-width:800px){
     main section{
         padding-top: 7rem;
     }
     .bg-color .content-1{
         padding: 0 0 4rem 0;
+
+        img{
+            padding-top: 2rem;
+        }
     }
-    .bg-color#intro .content-1 img{
-        padding-top: 2rem;
-    }
+    
     .menu{
         display: none;
-    }
-    .menu {
         height: 100vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .menu nav{
-        height: 90%;
-        margin-top: 12.5%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .menu nav h1 a {
-        text-align: center;
-        padding: 0
-    }
-    .menu nav ul{
-        height: 75%;
-        justify-content: center;
-        display: block;
-    }   
-    .menu ul li a{
-        text-align: center;
-    }
-    .menu ul li a::after {
-        bottom: 1.2rem;
-        left: 20%;
-    }
 
-    .menu ul li a:hover::after {
-        width: 40%;
-        left: 30%;
-        z-index: 99;
+        nav{
+            height: 90%;
+            margin-top: 12.5%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 a {
+                text-align: center;
+                padding: 0
+            }
+
+            ul {
+                height: 75%;
+                justify-content: center;
+                display: block;
+
+                li {
+                    a{
+                        text-align: center;
+                    }
+
+                    a::after {
+                    bottom: 1.2rem;
+                    left: 20%;
+                    }
+
+                    a:hover::after {
+                        width: 40%;
+                        left: 30%;
+                        z-index: 99;
+                    }
+                }
+            }   
+        }
     }
 
     #abreMenuCelular {
@@ -143,8 +156,6 @@
     }
     #fechaMenuCelular {
         display: none;
-    }
-    #fechaMenuCelular{
         position: fixed;
         z-index: 3;
         top: 0;

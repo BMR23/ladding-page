@@ -493,6 +493,11 @@ footer p a:visited {
     padding-bottom: 2rem;
   }
 }
+@media (min-width: 800px) {
+  .menu {
+    display: block !important;
+  }
+}
 @media (max-width: 800px) {
   main section {
     padding-top: 7rem;

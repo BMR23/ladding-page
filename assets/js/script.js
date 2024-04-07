@@ -20,11 +20,11 @@ function abrirMenu() {
 
 function fecharMenu(event) {
   var element = event.target;
-  console.log(element.tagName)
+  const elementLink = "A";
+  const elementNav = "NAV";
 
-  if (element.tagName !== "A") {
-    if (element.tagName === "NAV") return 0
-  }
+
+  if (element.tagName !== elementLink && element.tagName === elementNav) return 0
   if (contador == 1) {
     contador = 0
     menu.style.display = 'none'
